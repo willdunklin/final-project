@@ -1273,6 +1273,21 @@ ul a {
   font-size: 1.3em;
 }
 
-.bio-section .see-more {
+.bio-section {
   padding-top: 3em;
+  padding-bottom: 4em;
+}
+.bio-row h5 {
+  margin: auto 0;
+  padding: 0 1em;
+}
+.bio-img {
+  display: flex;
+  justify-content: center;
+}
+.bio-text {
+  padding-left: 0;
+}
+.see-more {
+  padding-top: 10em;
 }
