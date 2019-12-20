@@ -1212,3 +1212,13 @@ textarea {
 .active-page-parent:hover .active-page {
   background-color: #ee0;
 }
+.site-logo a div {
+  width: 96.5%;
+}
+.site-logo a p {
+  margin-bottom: 0;
+  transition: color .2s ease-out;
+}
+.site-logo a p:hover {
+  color: #ee0;
+}
