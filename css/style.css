@@ -1137,6 +1137,21 @@ a {
   clip-path: polygon(0 0, 50% 10%, 100% 0, 100% 100%, 0 100%);
   margin-top: -2em;
 }
+
+@media screen and (max-width: 770px) {
+  .site-blocks-blog {
+    min-height: 850px;
+    clip-path: polygon(0 0, 50% 10%, 100% 0, 100% 100%, 0 100%);
+    margin-top: 1em;
+  }
+  .blog h1 {
+    padding-top: 1.6em;
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+
 .site-blocks-blog:after {
   content: '';
   position: absolute;
@@ -1212,6 +1227,7 @@ textarea {
 .active-page-parent:hover .active-page {
   background-color: #ee0;
 }
+
 .site-logo a div {
   width: 96.5%;
 }
@@ -1221,4 +1237,42 @@ textarea {
 }
 .site-logo a p:hover {
   color: #ee0;
+}
+
+.tribute-item div {
+  padding: .8em 1em;
+}
+
+.tribute-section {
+  display: flex;
+  flex-direction: row;
+}
+.tribute-section img {
+  max-height: 300px;
+}
+
+.tribute-text {
+  margin: auto 0;
+  padding: .5em;
+}
+
+.tribute-text a, .bio-section a {
+  color: #000;
+  font-weight: bold;
+  transition: color .2s ease-out;s
+}
+.tribute-text a:hover, .bio-section a:hover {
+  color: #666;
+}
+
+.gallery-wrapper .gallery-row, .bio-section .bio-row {
+  padding: 1em 0;
+}
+
+ul a {
+  font-size: 1.3em;
+}
+
+.bio-section .see-more {
+  padding-top: 3em;
 }
